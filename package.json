@@ -1,0 +1,49 @@
+{
+  "name": "markdown-resume",
+  "version": "0.0.1",
+  "description": "",
+  "privat": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm prune",
+    "start": "gulp --harmony_arrow_functions",
+    "vendor": "gulp --harmony_arrow_functions vendor",
+    "prod": "PRODUCTION=true gulp --harmony_arrow_functions prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lafin/markdown-resume.git"
+  },
+  "author": "lafin <kuvakin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lafin/markdown-resume/issues"
+  },
+  "homepage": "https://github.com/lafin/markdown-resume#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^4.1.3",
+    "babelify": "^6.4.0",
+    "browserify": "^11.2.0",
+    "chalk": "^1.1.1",
+    "elemental": "^0.5.3",
+    "eslint": "^1.7.3",
+    "eslint-config-airbnb": "0.1.0",
+    "eslint-plugin-react": "^3.6.3",
+    "gulp": "^3.9.0",
+    "gulp-base64": "^0.1.3",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "^1.0.1",
+    "gulp-filter": "^3.0.1",
+    "gulp-if": "^2.0.0",
+    "gulp-less": "^3.0.3",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-streamify": "1.0.2",
+    "gulp-uglify": "^1.4.2",
+    "marked": "^0.3.5",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-router": "^1.0.0-rc3",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
