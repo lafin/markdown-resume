@@ -1,5 +1,5 @@
 {
-  "name": "markdown-resume",
+  "name": "markdown-to-pdf",
   "version": "0.0.1",
   "description": "",
   "privat": true,
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lafin/markdown-resume.git"
+    "url": "git+https://github.com/lafin/markdown-to-pdf.git"
   },
   "author": "lafin <kuvakin@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lafin/markdown-resume/issues"
+    "url": "https://github.com/lafin/markdown-to-pdf/issues"
   },
-  "homepage": "https://github.com/lafin/markdown-resume#readme",
+  "homepage": "https://github.com/lafin/markdown-to-pdf#readme",
   "dependencies": {},
   "devDependencies": {
     "babel-eslint": "^4.1.3",
