@@ -15,7 +15,7 @@ const streamify = require('gulp-streamify');
 const path = require('path');
 const less = require('gulp-less');
 
-const isProd = process.env.PRODUCTION === 'true' ? true : false;
+const isProd = process.env.NODE_ENV === 'production' ? true : false;
 
 function errorHandler(error) {
   return console.log(chalk.red(error.message));

@@ -8,7 +8,7 @@
     "prepublish": "npm prune",
     "start": "gulp",
     "vendor": "gulp vendor",
-    "prod": "PRODUCTION=true gulp prod"
+    "build": "NODE_ENV=production gulp prod"
   },
   "repository": {
     "type": "git",
