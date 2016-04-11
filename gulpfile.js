@@ -28,9 +28,7 @@ gulp.task('js', () => {
     debug: true,
     ignore: [],
   })
-  .transform(babelify.configure({
-    loose: 'all',
-  }))
+  .transform("babelify", {presets: ["es2015", "react"]})
   .bundle().on('error', errorHandler)
   .pipe(source('script.js'))
   .pipe(gulpif(isProd, streamify(uglify())))
